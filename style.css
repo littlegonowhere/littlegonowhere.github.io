@@ -1,0 +1,30 @@
+body {
+	background-color: #000;
+	color: #0f0;
+	width: 640px;
+	font-family: monospace;
+	margin: auto;
+	font-size: 16px;
+}
+
+#note {
+	text-align: center;
+	border: 2px dashed #0f0;
+	width: 250px;
+	margin: 40px auto;
+}
+
+#note * {
+	border: none;
+}
+
+button {
+	background-color: inherit;
+	color: inherit;
+	border: 1px solid #0f0;
+	padding: 10px;
+	text-align: center;
+	margin: 0px 250px 0px 250px;
+	width: 140px;
+	height: 50px;
+}
