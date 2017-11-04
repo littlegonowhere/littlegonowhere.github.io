@@ -1,0 +1,29 @@
+-- Scenes --
+-- Scene 1: Just Outside the Forest --
+You find yourself on the outskirts of the forest [name?].
+There's no explanation yet why, and perhaps there need not be any explanation!
+Do you receive the encrypted message before or after your arrival?
+Do you find yourself there or did you go there on your own?
+You have a super computer with you [name?][interface?]
+Should there be a quick tutorial?
+
+-- Commands --
+-- Super-Computer --
+scan
+-- Tree-Console --
+sandwich
+water
+
+-- Status --
+presentation: percentage?
+health?
+hunger
+thirst
+sickness? (maybe event-specific with a specific cure for each sickness event)
+
+-- Inventory --
+sandwiches (gotten from tree-console)
+bottles of water (tree-console)
+event-specific medicine? (tree-console too?)
+the super computer? [maybe should not be part of the inventory]
+encrypted message? [maybe should not be part of the inventory]
