@@ -1,41 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Little Go Nowhere</title>
-		<script src="lib/jquery-3.2.1.js"></script>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<div id="intro">
-			<p>You find yourself in the middle of a dark forest. There's nothing around but electronic trash.</p>
-			<p>The sky above is grey, the trees made of plastic.</p>
-			<p>You are a bit hungry. If you will not eat soon you may die!</p>
-			<p>There's a tree close by, with things hanging from the top.</p>
-			<p>Fruit for sure!</p>
-			<p>And not just any old fruit, but tasty sandwiches.</p>
-			<button id="eat">Pick &amp; Eat!</button>
-		</div>
-
-		<div id="middle">
-			<p>Yum! You feel satisfied.</p>
-			<p>As you reach to pick another sandwich, you find a note stuck to the tree.</p>
-			<button id="read">Read Note</p>
-		</div>
-
-		<div id="note">
-			<p>Happy Birthday,<br>
-			my dear Annabel!</p>
-			<pre>
-^ ^ ^ ^ ^
-| | | | |
-----------
-|  happy  |
-|  bday!  |
-----------
- 			</pre>
- 		</div>
-
-		<script src="js/script.js"></script>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Little Go Nowhere</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Little Go Nowhere</h1>
+    <div id="joplin">
+      <p>This is Joplin. He will be your personal assistant computer.</p>
+      <div class="terminal">
+        &gt;
+      </div>
+    </div>
+    <div id="main">
+      <p>
+        This is the main pane. It will hold stories and adventures.
+        This is what you will look at most of the time. That's why it's the biggest.
+      </p>
+      <p>Adventure #1</p>
+      <p>Adventure #2</p>
+      <p>Adventure #3</p>
+    </div>
+    <div id="inventory">
+      <p>This is your inventory, and perhaps the status too. I haven't made up my mind yet.</p>
+      <ul>
+        <li>Sandwiches: <span id="sandwiches">0</span></li>
+        <li>Bottles of Water: <span id="water">0</span></li>
+        <li>Medicine: <span id="medicine">0</span></li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
